@@ -1,0 +1,126 @@
+body {
+  background-color: #55a288;
+}
+.div-1 {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 30%;
+
+  top: 64px;
+
+  background: #1f2937;
+}
+h1 {
+  position: absolute;
+  width: 354px;
+  height: 80px;
+  left: 52px;
+  top: 115px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  color: #4adf86;
+}
+span {
+  color: white;
+}
+
+p {
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 205px;
+
+  /* text-xl/leading-7/font-normal */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Medium grey */
+
+  color: #d5d4d8;
+}
+#passBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  color: white;
+  position: absolute;
+  width: 191px;
+  height: 42px;
+  left: 52px;
+  top: 284px;
+
+  background: #10b981;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.copy-btn {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  color: white;
+  width: 191px;
+  height: 42px;
+  top: 85%;
+  left: 35%;
+  background: #10b981;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+hr {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 361px;
+
+  border: 1px solid #2f3e53;
+}
+.inp-1 {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 396px;
+  color: white;
+  background: #273549;
+  border-radius: 6px;
+  text-align: center;
+}
+.inp-2 {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 300px;
+  top: 396px;
+  color: white;
+  background: #273549;
+  border-radius: 6px;
+  text-align: center;
+}
