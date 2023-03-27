@@ -95,6 +95,7 @@ const characters = [
 let passEl1 = document.getElementById("pass-el1");
 let passEl2 = document.getElementById("pass-el2");
 let passBtn = document.getElementById("passBtn");
+let clearBtn = document.getElementById("clearBtn");
 
 passBtn.addEventListener("click", function () {
   for (let i = 0; i < 15; i++) {
@@ -105,10 +106,16 @@ passBtn.addEventListener("click", function () {
     passEl2.value += characters[randompass2];
   }
 });
+clearBtn.addEventListener("click", function () {
+  passEl1.value = "";
+  passEl2.value = "";
+});
 
 function copyPassword() {
   let copyText = passEl1;
-  copyText.select();
-  navigator.clipboard.writeText(copyText.value);
-  alert("copied password:" + copyText.value);
+  if (copyText.value) {
+    copyText.select();
+    navigator.clipboard.writeText(copyText.value);
+    alert("copied password:" + copyText.value);
+  }
 }
